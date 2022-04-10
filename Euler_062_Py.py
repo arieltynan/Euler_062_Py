@@ -12,7 +12,6 @@ def split_nums(num):
         d_arr[dig] = d_arr[dig] + 1 
     return d_arr
 
-#cubes = [] #array of cubes
 comp_arr = [] #array of d_arr for all cubes
 for i in range(0,10000):
     comp_arr.append(split_nums(i*i*i))
